@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: authapi
-        image: portfoliomanagementcr.azurecr.io/authapi:latest
+        image: mfpeportfoliomanagementcr.azurecr.io/authapi:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
